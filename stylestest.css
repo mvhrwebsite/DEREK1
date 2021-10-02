@@ -1,0 +1,188 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  background-color: black;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+ h2{
+  color: #fff;
+  text-align: left;
+}
+
+/* navbar */
+.wrapper-navbar {
+  position: absolute;
+  margin-left: 10%;
+}
+
+.nav-item {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 5%;
+}
+
+.nav-icon {
+  font-size: 2rem;
+  padding-left: 5%;
+}
+
+/* logo */
+
+
+.logo-image {
+  width: 100%;
+}
+
+/* music */
+.wrapper-music{
+  padding: 10% 0 10% 0;
+  text-align: center;
+  color: #fff;
+
+}
+
+.iframe{
+  padding: 6% 0 6% 0;
+}
+
+
+
+/* video */
+.wrapper-video {
+  margin-top: 2%;
+  padding: 6% 5% 5% 5%;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* bio */
+.wrapper-bio {
+  position: relative;
+
+}
+
+
+.text-bio {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 21%;
+  right: 8%;
+  left: 52%;
+  color: white;
+  padding: 3% 2% 2% 2%;
+
+}
+
+.text-bio {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 200;
+}
+
+
+/* news */
+#News {
+  padding: 10% 0 6% 0;
+  color: #fff;
+
+}
+.text-block{
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  left: 2%;
+  color: white;
+  padding: 3% 3% 3% 2%;
+}
+
+.news-column {
+  padding: 3% 2%;
+}
+
+
+
+#testimonials {
+  background-color: #000;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+
+
+
+}
+
+
+#press {
+  background-color: #000;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* footer */
+#footer {
+  background-color: #244463;
+  background: rgba(0, 0, 0, 0.5);
+
+  color: #fff;
+  text-align: center;
+  padding: 4% 30%;
+}
+
+.footer-icon {
+  padding: 2% 2%;
+  font-size: 2rem;
+}
+
+
+  @media (max-width: 1000px) {
+  .wrapper-bio {
+    padding: 0.5%;
+
+
+  }
+  .text-block{
+    bottom: 1%;
+    right: 1%;
+    left: 1%;
+    padding: 0.5%;
+    }
+    .text-bio{
+      font-size: 1rem;
+    }
+
+    .wrapper-navbar{
+      position: static;
+
+    }
